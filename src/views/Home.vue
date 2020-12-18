@@ -74,27 +74,6 @@ export default {
       }
     });
 
-    // watch(
-    //   () => route,
-    //   () => {
-    //     console.log("观测到数据变化");
-    // test();
-    // async function test() {
-    //   if (route.params.id == "24hr") {
-    //     let { data, code, status } = await API.chouti.apiTopNews24();
-    //     states.data = data;
-    //   } else if (route.params.id == "72hr") {
-    //     let { data, code, status } = await API.chouti.apiTopNews72();
-    //     states.data = data;
-    //   } else if (route.params.id == "168hr") {
-    //     let { data, code, status } = await API.chouti.apiTopNews168();
-    //     states.data = data;
-    //   }
-    // }
-    //   },
-    //   { immediate: true }
-    // );
-
     onBeforeMount(async () => {
       let { data, code, status } = await API.chouti.apiTopNews24();
       states.data = data;
@@ -112,6 +91,7 @@ export default {
 .head {
   position: fixed;
   top: 0px;
+  margin-left: 0;
   margin-top: 0px;
   height: 56px;
   width: 100%;
@@ -119,10 +99,11 @@ export default {
 }
 
 .wholepage {
-  background-image: url("../assets/bg2.jpg");
+  background-image: url("../assets/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-origin: border-box;
+  width: 100%;
+  height: 100%;
 }
 
 .page {
@@ -133,5 +114,10 @@ export default {
   width: 70%;
   margin-right: 15%;
   margin-left: 15%;
+}
+
+.foot {
+  margin: 0;
+  padding: 0;
 }
 </style>

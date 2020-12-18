@@ -62,5 +62,7 @@ a {
 
 .item:hover {
   background-color: rgb(250, 250, 250);
+  opacity: 40%;
+  font-size: 110%;
 }
 </style>
