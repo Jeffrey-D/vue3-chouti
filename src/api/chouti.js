@@ -1,9 +1,4 @@
-/*
- *@description:封装axios请求
- *@author: 段正宇
- *@date: 2020-12-03 11:42:18
- *@version: V1.0.5
-*/
+
 
 import axios from './axios'
 

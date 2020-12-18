@@ -31,9 +31,10 @@ a {
 }
 
 .item {
-  background-color: #fff;
+  /* background-color: #fff; */
   height: 8em;
   margin-bottom: 5px;
+  background-clip: content-box;
 }
 
 .title {

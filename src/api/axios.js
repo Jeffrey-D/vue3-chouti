@@ -1,9 +1,3 @@
-/*
- *@description:axios基础配置
- *@author: 段正宇
- *@date: 2020-12-03 11:41:50
- *@version: V1.0.5
-*/
 import axios from 'axios'
 import qs from 'qs'
 

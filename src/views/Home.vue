@@ -1,11 +1,3 @@
-<!-- 
- * @description: 主界面
- * @fileName: Home.vue 
- * @author: 段正宇 
- * @date: 2020-12-03 17:42:22
- * @后台人员:  
- * @version: V1.0.5 
-!-->
 <template>
   <div class="wholepage">
     <div class="head">
@@ -126,9 +118,16 @@ export default {
   background-color: #fff;
 }
 
+.wholepage {
+  background-image: url("../assets/bg2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-origin: border-box;
+}
+
 .page {
   margin-top: 57px;
-  background-color: rgb(245, 245, 245);
+  /* background-color: rgb(245, 245, 245); */
 }
 .main {
   width: 70%;
