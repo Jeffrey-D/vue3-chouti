@@ -3,9 +3,9 @@
     <img class="logo-icon" src="../assets/choutilogo.png" alt="" />
     <img class="logo-txt" src="../assets/choutiname.png" alt="" />
 
-    <router-link class="toplink" to="/hot/24hr">24小时热榜</router-link>
-    <router-link class="toplink" to="/hot/72hr">72小时热榜</router-link>
-    <router-link class="toplink" to="/hot/168hr">168小时热榜</router-link>
+    <router-link class="toplink" to="/hot/24hr">24小时</router-link>
+    <router-link class="toplink" to="/hot/72hr">72小时</router-link>
+    <router-link class="toplink" to="/hot/168hr">168小时</router-link>
   </div>
 </template>
 
